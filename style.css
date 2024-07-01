@@ -1,0 +1,47 @@
+body {
+  display: grid;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.container {
+  background-color: rgba(211, 91, 91, 0.678);
+  width: 650px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.btn {
+  color: lightgreen;
+  background-color: green;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  border-radius: 3px;
+  border-color: black;
+  border-width: thick;
+}
+
+.btn:disabled {
+  color: red;
+  background-color: darkred;
+}
+
+.btn:active {
+  opacity: 0.75;
+}
+
+#display {
+  font-size: 30px;
+}
